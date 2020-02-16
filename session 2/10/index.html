@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        x=Number(prompt("Nhập cân nặng (kg) của bạn vào đây"))
+        n=Number(prompt("Nhập chiều cao (cm) của bạn vào đây"))
+        bmi=x/(n/100)**2
+        if(bmi<16){
+            console.log("Bạn đang bị thiếu cân nặng so với chiều cao cơ thể, hãy ăn thêm và ngủ đủ tiếng :<")
+        }
+        else if(bmi>16, bmi<18.5){
+            console.log("Bạn đang hơi thiếu cân nặng, cần ăn thêm và tập luyện để có cân nặng cân đối hơn với chiều cao cơ thể :3")
+        }
+        else if(bmi>18.5, bmi<25){
+            console.log("Chiều cao và cân nặng của bạn là cân đối, cố gắng giữ lịch tập mỗi ngày để có vóc dáng đẹp nhé UwU")
+        }
+        else if(bmi>25, bmi<30){
+            console.log("Bạn hơi bị thừa cân 1 chút so với chiều cao cơ thể, kết hợp việc tập luyện hàng ngày là sẽ cân đối cân nặng :3")
+        }
+        else{
+            console.log("Bạn bị thừa cân, hãy tập luyện cường độ cao như hitt để có cân nặng giảm đi và nhớ ăn vặt ít thôi <3")
+        }       
+    </script>
+</body>
+</html>
