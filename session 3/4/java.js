@@ -35,7 +35,7 @@ ttthaythe=Number(prompt("Nhập số thứ tự của loại quần áo bạn mu
 
 
 else if(tuychon=="xóa"){
-xoaquanao=Number(prompt("Nhập thứ tự bạn muốn xóa loại quần áo đó đi"))
+xoaquanao=Number(prompt("Nhập thứ tự bạn muốn xóa loại quần áo đó đi"))-1
     if(Number.isNaN(xoaquanao)){
         alert("Bạn hãy nhập số")
         }
