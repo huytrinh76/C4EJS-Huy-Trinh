@@ -23,8 +23,5 @@ else if(k=='ui/ux'){
     alert(keyword.uiux)
 }
 else{
-    a=prompt(`We could not find ur word: ${k}, leave ur explanation`)
-    alert('Done')
-    keyword[k]=a
-   
-}
+    a=prompt(`We could not find ur word: ${k}`)
+   }
