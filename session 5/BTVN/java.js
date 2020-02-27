@@ -53,28 +53,41 @@
 // console.log(keysAndValues({A: 4, B: 8, C: 55}))
 
 //5
-function mapLetters(string){
-    object={}
-    for(i=0;i<string.length;i++){
-        dem=0;
-        for(a in object){
-            if(a==string.charAt(i)){
-                dem++;
-            }
-            if(dem==0){
-                array=[]
-                for(j=i;j<string.length;j++){
-                    if(string.charAt(i)==string.charAt(j)){
-                        array.push(j)
-                    }
+// function mapLetters(string){
+//     object={}
+//     for(i=0;i<string.length;i++){
+//         dem=0;
+//         for(a in object){
+//             if(a==string.charAt(i)){
+//                 dem++;
+//             }
+//             if(dem==0){
+//                 array=[]
+//                 for(j=i;j<string.length;j++){
+//                     if(string.charAt(i)==string.charAt(j)){
+//                         array.push(j)
+//                     }
                     
-                }
-                object{string.charAt(i)}=array;
-            }
-        }
+//                 }
+//                 object[string.charAt(i)]=array;
+//             }
+//         }
        
-    }
-    return object;
-}
-console.log(mapLetters("NaturalVision Remastered"))
+//     }
+//     return object;
+// }
+// console.log(mapLetters("NaturalVision Remastered"))
+//anh xem hộ em bài 5 sao em mãi ko chạy đc đúng, em chả biết code sai ở đâu :<
 
+//6
+function reverseObject(object){
+    object2={}
+        for(a in object){
+            object2[object[a]]=a
+        }
+    return object2;
+}
+console.log({
+    'NaturalVision' :'Name',
+    'Remastered' :'Category',
+})
