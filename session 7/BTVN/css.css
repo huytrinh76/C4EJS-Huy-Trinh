@@ -9,7 +9,7 @@ h3{
     text-align: center;
     color: #4f4f4f;
 }
-#subtitle{
+#sub{
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -18,19 +18,19 @@ h3{
     margin-top: 8px;
     margin-bottom: 40px;
 }
-#main-form{
+#mainform{
     width: 442px;
     height: 396px;
     left: 355px;
     top:253px;
     background: #FFFFFF;
-    /* idle */
+    
 
     box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.16);
     border-radius: 16px;
     padding: 40px;
 }
-.form-container{
+.formcontainer{
     display: flex;
     justify-content: center;
 }
@@ -53,9 +53,8 @@ h3{
     box-sizing: border-box;
     border-radius: 4px;
 }
-#main-form button{
+#mainform button{
     background: #35CE97;
-    /* 1 */
     border: 1px solid #35CE97;
     box-sizing: border-box;
     border-radius: 88px;
