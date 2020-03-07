@@ -265,11 +265,17 @@ quote=[
     }
 ]
 
-const container=document.getElementById('container')
+function render(){
+    const randomindex=Math.floor(Math.random()*quote.length)
+    const data=quote[randomindex]
+    console.log(randomindex)
+    container.innerHTML=''
+    container.innerHTML+=`<h1>${data.quoteText}</h1>`
+    container.innerHTML+=`<h3>${data.quoteAuthor}</h3>`
+}
+render()
+button.addEventListener('Click', render)
 
 
-const randomindex=Math.floor(Math.random()*quote.length)
-const data=quote[randomindex]
-console.log(data)
 
 
