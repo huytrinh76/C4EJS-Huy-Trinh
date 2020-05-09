@@ -265,16 +265,18 @@ quote=[
     }
 ]
 
+const button=document.getElementById('button')
+const quotes=document.getElementById('quotes')
+const author=document.getElementById('author')
+
 function render(){
-    const randomindex=Math.floor(Math.random()*quote.length)
-    const data=quote[randomindex]
-    console.log(randomindex)
-    container.innerHTML=''
-    container.innerHTML+=`<h1>${data.quoteText}</h1>`
-    container.innerHTML+=`<h3>${data.quoteAuthor}</h3>`
+    let i=Math.floor(Math.random()*quote.length);
+    a=quote[i]
+    quotes.innerText=quote[i].quoteText
+    quotes.innerText=quote[i].quoteAuthor
 }
 render()
-button.addEventListener('Click', render)
+button.addEventListener('click', render)
 
 
 

@@ -1,0 +1,16 @@
+#gd{
+    text-align: center;
+}
+#start{
+    font-size: 20px;
+}
+#stop{
+    font-size: 20px;
+}
+#number{
+    font-size: 20px;
+}
+#wrong{
+    font-size: 40px;
+    color: green;
+}
