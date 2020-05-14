@@ -1,5 +1,5 @@
 function boi(a, b){
-    let r=Math.floor((Math.random()*(b-a))+a)
+    let r=Math.floor((Math.random()*(b-a+1))+a)
     document.writeln(r)
     return r
 }
