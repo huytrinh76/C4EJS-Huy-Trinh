@@ -20,6 +20,7 @@ function dicho(action){
         }
     })
 }
+
 fetch('https://pokeapi.co/api/v2/pokemon/pikachu/').then(function(data){
     data.json().then(function(realdata){
         console.log(realdata);
@@ -35,12 +36,12 @@ async function fetchdata(){
 console.log(fetchdata());
 
 
-// dicho().then(function(data){
-//     console.log(data);
-// }).catch(function(){
-//     console.log('no data');
+dicho().then(function(adata){
+    console.log(adata);
+}).catch(function(){
+    console.log('no data');
     
-// })
+})
 
 
 
