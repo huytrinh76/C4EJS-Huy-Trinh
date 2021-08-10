@@ -1,0 +1,30 @@
+h1{
+    color: orange;
+    text-align: center;
+    border: 10px groove orange;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.font1{
+    color: red;
+    font-size: 60px;
+}
+.font2{
+    color: red;
+}
+.font3{
+    background-color: yellow;
+    font-style: italic;
+}
+p{
+    font-size: 20px;
+}
+.text{
+    font-size: 40px;
+    text-align: right;
+    color: white;
+    background-color: orange;
+}
+.end{
+    text-align: right;
+}

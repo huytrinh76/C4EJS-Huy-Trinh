@@ -1,0 +1,30 @@
+body{
+    background-color: wheat;
+}
+h1{
+    text-align: center;
+    color: sandybrown;
+}
+img{
+    width: 18%;
+    position: absolute;
+    margin-left: 30%;
+    border: 2px solid white;
+}
+table{
+    font-size: 20px;
+    margin-left: 50%;
+    border-spacing: 0;
+}
+th{
+    background-color: brown;
+    padding: 10px;
+}
+td{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid red;
+}
+.color{
+    background-color: white;
+}

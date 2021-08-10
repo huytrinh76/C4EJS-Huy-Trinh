@@ -1,0 +1,68 @@
+<html>
+<head>
+	<title>D13CNPM7 - CSS Example</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" language='javascript' src="Javascript/jquery-3.4.1.min.js"></script>
+	
+	<script language='javascript'>
+		var list_img = ["Image/slide-1.jpg", 
+						"Image/slide-2.jpg", 
+						"Image/slide-3.jpg", 
+						"Image/slide-4.jpg",
+						"Image/slide-4.jpg",
+						"Image/slide-4.jpg",
+						"Image/slide-4.jpg"];
+						
+		$(document).ready(function() {
+			var new_html = "";
+			for(var i=0;i<list_img.length; i++){
+				if(i==0){
+					new_html += "<li class='active' onclick='DoiAnh("+i+")'></li> "
+				}
+				else{
+					new_html += "<li onclick='DoiAnh("+i+")'></li> "
+				}
+			}
+			$('#menu').html(new_html);
+		});
+	
+		
+						
+		function DoiAnh(img_idx){
+			var img_slide = $('#img_slide');
+			img_slide.attr('src', list_img[img_idx]);
+			var items = $('#menu li');
+			for (var i=0; i<items.length; i++)
+			{
+				if(i == img_idx){				
+					$(items[i]).attr('class', 'active');
+				}
+				else{
+					$(items[i]).attr('class', '');
+				}
+			}
+		}
+	</script>
+</head>
+<body>
+
+	<div class='slider'>
+		<div class='slider-image'>
+			<img id='img_slide' src='Image/slide-1.jpg' />
+			<div class='slider-text'>
+				Flexslider By D13CNPM7
+			</div>
+		</div>
+		<div class='slider-left'></div>
+		<div class='slider-right'></div>
+		<div class='slider-menu'>
+			<ul id='menu'>
+				
+			</ul>
+		</div>
+	</div>
+	
+	
+	
+</body>
+</html>

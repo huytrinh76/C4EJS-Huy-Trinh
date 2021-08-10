@@ -1,0 +1,15 @@
+body{
+    background-image: url('https://i.pinimg.com/originals/18/31/d4/1831d4b280a9ba48481cd7b7718e0a0a.jpg');
+}
+.h1{
+    text-align: center;
+    color: red;
+}
+.nd{
+    width: 70%;
+    margin: auto;
+}
+.text{
+    color: yellow;
+    font-size: 20px;
+}

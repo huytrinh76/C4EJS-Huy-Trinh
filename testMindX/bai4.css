@@ -1,0 +1,21 @@
+body{
+    background-image: url('https://miro.medium.com/max/3840/1*xMuIOwjliGUPjkzukeWKfw.jpeg');
+}
+.h1{
+    text-align: center;
+    color: teal;
+}
+.text{
+    width: 50%;
+    margin: auto;
+}
+.text1{
+    font-size: 20px;
+    color: white;
+    background-color: teal;
+    font-style: italic;
+}
+.text2{
+    font-size: 20px;
+    color: white;
+}

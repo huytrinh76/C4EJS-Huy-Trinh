@@ -1,0 +1,22 @@
+body{
+    background-image: url('https://i.stack.imgur.com/jGlzr.png');
+}
+.heading{
+    text-align: center;
+    color: white;
+}
+.layout{
+    border: 2px solid black;
+    width: 17%;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+#pass{
+    margin-left: 12%;
+}
+.button{
+    padding: 5px;
+    margin-top: 5%;
+}
